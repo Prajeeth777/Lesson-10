@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
 
+        <title>AfterClass Activity</title>
+        <style>
+            input[type="text"]{
+                border: 2px solid lightskyblue;
+            }
+            text[type="password"]{
+                border: 2px solid lightgreen;
+            }
+            ul>li{
+                color: blueviolet;
+            }
+            h3+p{
+                color: brown;
+            }
+            a:hover{
+                color: aquamarine;
+            }
+            li:nth-child(4){
+                background-color: salmon;
+            }
+            div:not(.div1){
+                border: 2px dashed gold
+            }
+            a::after{
+                content:"🥎"
+            }
+            li::before{
+                content:"⚽"
+            }
+            p::first-letter{
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <ul>
+            <li>ZBoston</li>
+            <li>Denver</li>
+            <li>San Fransisco</li>
+            <li>Miluwaukee</li>
+            <li>Los Angeles</li>
+        </ul>
+        <h3>This is a heading</h3>
+        <p id="p1">This is the first paragraph</p>
+        <p id="p2">This is the second paragraph</p>
+        <a href="#">Google</a>
+        <div class="div1">This is the first division</div>
+        <div class="div2">This is the second division</div>
+    </body>
+</html>
